@@ -1,0 +1,18 @@
+{
+  "name": "knee-d-server",
+  "version": "1.0.0",
+  "description": "Knee-d Help 自研轻量后端：Node.js + Express + MySQL，完全自托管，不依赖任何第三方云服务",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.11.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
